@@ -15,7 +15,7 @@ public class ProductSessionBean implements ProductService {
     }
 
     @Override
-    public List<Product> getProducts() {
+    public List<Product> getAllProducts() {
         return List.of(
                 new Product(1, "Product 1", "Description 1", 100.0, 10),
                 new Product(2, "Product 2", "Description 2", 200.0, 20),

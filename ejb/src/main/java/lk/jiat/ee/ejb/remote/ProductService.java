@@ -7,9 +7,10 @@ import java.util.List;
 
 @Remote
 public interface ProductService {
+
     lk.jiat.ee.core.model.Product getProduct(int id);
 
-    List<Product> getProducts();
+    List<Product> getAllProducts();
 
     void addProduct(Product product);
 
